@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-27T15:36:45 EET" name="Default suite" finished-at="2023-09-27T15:37:35 EET" duration-ms="49862">
+  <suite started-at="2023-12-02T21:34:18 EET" name="Default suite" finished-at="2023-12-02T21:34:21 EET" duration-ms="2239">
     <groups>
     </groups>
-    <test started-at="2023-09-27T15:36:45 EET" name="Default test" finished-at="2023-09-27T15:37:35 EET" duration-ms="49862">
-      <class name="MyClass">
-        <test-method is-config="true" signature="myBeforeMethod()[pri:0, instance:MyClass@3c443976]" started-at="2023-09-27T15:36:45 EET" name="myBeforeMethod" finished-at="2023-09-27T15:37:35 EET" duration-ms="49731" status="PASS">
+    <test started-at="2023-12-02T21:34:18 EET" name="Default test" finished-at="2023-12-02T21:34:21 EET" duration-ms="2239">
+      <class name="LoginProcess.ValidLoginTestCases">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:LoginProcess.ValidLoginTestCases@4264b240]" started-at="2023-12-02T21:34:18 EET" name="Setup" finished-at="2023-12-02T21:34:19 EET" duration-ms="910" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- myBeforeMethod -->
-        <test-method signature="testAlmosaferWebsite()[pri:0, instance:MyClass@3c443976]" started-at="2023-09-27T15:37:35 EET" name="testAlmosaferWebsite" finished-at="2023-09-27T15:37:35 EET" duration-ms="95" status="PASS">
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginTestUsingStandardUsers()[pri:1, instance:LoginProcess.ValidLoginTestCases@4264b240]" started-at="2023-12-02T21:34:19 EET" name="LoginTestUsingStandardUsers" finished-at="2023-12-02T21:34:20 EET" duration-ms="558" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAlmosaferWebsite -->
-        <test-method is-config="true" signature="myAfterMethod()[pri:0, instance:MyClass@3c443976]" started-at="2023-09-27T15:37:35 EET" name="myAfterMethod" finished-at="2023-09-27T15:37:35 EET" duration-ms="0" status="PASS">
+        </test-method> <!-- LoginTestUsingStandardUsers -->
+        <test-method signature="AddToCart()[pri:2, instance:LoginProcess.ValidLoginTestCases@4264b240]" started-at="2023-12-02T21:34:20 EET" name="AddToCart" finished-at="2023-12-02T21:34:20 EET" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- myAfterMethod -->
-      </class> <!-- MyClass -->
+        </test-method> <!-- AddToCart -->
+        <test-method signature="PrintTheNamesOfTheItems()[pri:3, instance:LoginProcess.ValidLoginTestCases@4264b240]" started-at="2023-12-02T21:34:20 EET" name="PrintTheNamesOfTheItems" finished-at="2023-12-02T21:34:21 EET" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintTheNamesOfTheItems -->
+        <test-method is-config="true" signature="PostTesting()[pri:0, instance:LoginProcess.ValidLoginTestCases@4264b240]" started-at="2023-12-02T21:34:21 EET" name="PostTesting" finished-at="2023-12-02T21:34:21 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostTesting -->
+      </class> <!-- LoginProcess.ValidLoginTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

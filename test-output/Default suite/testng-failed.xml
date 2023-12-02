@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MyClass">
+      <class name="LoginProcess.ValidLoginTestCases">
         <methods>
-          <include name="myBeforeMethod"/>
-          <include name="testAlmosaferWebsite"/>
-          <include name="myAfterMethod"/>
+          <include name="Setup"/>
+          <include name="PrintTheNamesOfTheItems"/>
+          <include name="PostTesting"/>
         </methods>
-      </class> <!-- MyClass -->
+      </class> <!-- LoginProcess.ValidLoginTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
